@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/news",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Hot Dust",
+      "hasCanvas": false,
+      "bodyTextLen": 2041,
+      "bodyTextHash": "e469b2587d7d2a153ecf622b161171e7d4b618a8c4d66f53e8dc674be143dd87",
+      "bodyTextPrefix": "THE HOT DUST SOTOVERSE ENTERTAINMENT HOME BATTLE REPORTS NEWS AB",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/news.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Hot Dust",
+      "hasCanvas": false,
+      "bodyTextLen": 1983,
+      "bodyTextHash": "e8e37fbdea0516e8f00b7f3cb4b1b5ddf3a544fe84649971453337927bbac9d8",
+      "bodyTextPrefix": "THE HOT DUST SOTOVERSE ENTERTAINMENT DISPATCHES News Roundups fr",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/news-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/news.json"
+}

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/news/sunday-preview-sons-of-behemat",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Hot Dust",
+      "hasCanvas": false,
+      "bodyTextLen": 1642,
+      "bodyTextHash": "28052cbd65229806f798d23074f8fe0e9618429f28b255aa525ac609a24de2c5",
+      "bodyTextPrefix": "THE HOT DUST SOTOVERSE ENTERTAINMENT HOME BATTLE REPORTS NEWS AB",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/news-article.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Hot Dust",
+      "hasCanvas": false,
+      "bodyTextLen": 1584,
+      "bodyTextHash": "eb8152df6d4288e1e552b733202503da3b96e5f28f25b4edb54c8fa1d42c51ca",
+      "bodyTextPrefix": "THE HOT DUST SOTOVERSE ENTERTAINMENT ALL NEWS AGE OF SIGMAR 6 SE",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/news-article-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/news-article.json"
+}

@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Hot Dust",
+      "hasCanvas": false,
+      "bodyTextLen": 2601,
+      "bodyTextHash": "053f11318e8fd895b170b67c5df529c68f72abb90ce1ad51f826e8671a4811bb",
+      "bodyTextPrefix": "THE HOT DUST SOTOVERSE ENTERTAINMENT HOME BATTLE REPORTS NEWS AB",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Hot Dust",
+      "hasCanvas": false,
+      "bodyTextLen": 2522,
+      "bodyTextHash": "eb6a347d05d4d798e631e8d1f85947440811a7ca9a4b7812a6a2fa08eba1cd7c",
+      "bodyTextPrefix": "THE HOT DUST SOTOVERSE ENTERTAINMENT SOTOVERSE ENTERTAINMENT The",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
