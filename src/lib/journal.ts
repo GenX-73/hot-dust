@@ -1,1 +1,1 @@
-$(cat /tmp/hotdust-update/journal.ts)
+PLACEHOLDER_FOR_LARGE_CONTENT
