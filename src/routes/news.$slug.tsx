@@ -6,9 +6,18 @@ import { formatDate } from "@/lib/utils";
 
 export const Route = createFileRoute("/news/$slug")({
   component: NewsArticle,
+  head: ({ params }) => {
+    // Dynamic head would need loader, but for static we handle in component or default
+    return {
+      meta: [
+        { title: "News | The Hot Dust" },
+      ],
+    };
+  },
 });
 
 function renderInline(text: string) {
+  // Simple link and bold/italic
   const parts = text.split(/(\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*|\*[^*]+\*)/g);
   return parts.map((part, i) => {
     const link = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
@@ -44,6 +53,8 @@ function NewsArticle() {
       </div>
     );
   }
+
+  const cover = post.cover || post.shareImage || "/og.jpg";
 
   return (
     <article>
